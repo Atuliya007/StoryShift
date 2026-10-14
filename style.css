@@ -1,0 +1,96 @@
+
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #a78bfa;
+    font-size: 48px;
+}
+
+p {
+    color: #cbd5e1;
+    font-size: 18px;
+}
+
+/* Navigation bar */
+header {
+    padding: 20px 8%;
+    border-bottom: 1px solid #334155;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: #a78bfa;
+}
+
+nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-left: 24px;
+}
+
+/* Main hero section */
+.hero {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+.tagline {
+    color: #a78bfa;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 52px;
+    line-height: 1.15;
+    margin-bottom: 24px;
+}
+
+.description {
+    color: #cbd5e1;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Explore button */
+button {
+    background-color: #8b5cf6;
+    color: white;
+    border: none;
+    padding: 15px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #7c3aed;
+}
+
+/* Stories section */
+#stories {
+    text-align: center;
+    padding: 40px 20px 80px;
+}
+
+#stories h2 {
+    font-size: 32px;
+}
+
+#stories p {
+    color: #cbd5e1;
+}
